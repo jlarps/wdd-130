@@ -1,7 +1,3 @@
-body {
-    text-align: center;
-}
-
 nav { /*The nav allows you to customize links*/
     background-color: steelblue;
     padding: 10px;
@@ -15,17 +11,32 @@ nav { /*The nav allows you to customize links*/
   h1 {
     color: steelblue;
   }
+  h1 {
+    text-align: center;
+}
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
   img {
-    width: 800px;
+    width: 80%;
     border: 4px solid steelblue;
   }
+  * {
+    border: 2px solid blue;
+}
   p {
     padding: 10px;
   }
-  footer {
+  nav, footer {
     background-color: steelblue;
     color: white;
-  }
+    padding: 10px;
+}
+nav, footer {
+  text-align: center;
+}
   .main-para{
     font-size: 1.5em;
     line-height: 1.5em;
@@ -34,3 +45,11 @@ nav { /*The nav allows you to customize links*/
     background-color: white;
     color: steelblue;
   }
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
