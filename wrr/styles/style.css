@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Shadows+Into+Light&display=swap');
+
+--heading-font: "Shadows Into Light";
+--paragraph-font: "Bungee Spice", Helvetica, sans-serif;
+
 #content{
 max-width: 1600px;
 margin: 0 auto;
 }
 
-nav, a{
+nav a{
     text-align: left;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1,h4{
@@ -31,6 +37,10 @@ text-align: center;
 
 body{
     background-color: #99e1d9;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -40,15 +50,14 @@ nav a:hover{
     background-color: black;
     color: white;
 }
-.book{
+.book, .join{
     background-color: #FF0000;
     color: black;
     text-decoration: none;
-}
-.join{
-    background-color: red;
-    color: black;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: aliceblue;
@@ -63,16 +72,23 @@ nav a:hover{
 }
 .msg{
     background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: beige;
 }
 .msg p{
     color: beige;
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: white;
     color: black;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200 px;
 }
 footer a{
     color: black;
@@ -89,6 +105,9 @@ footer p a:hover{
 }
 .home-title{
     color: black;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 50px;
 }
 h4{
     color: black;
@@ -98,7 +117,26 @@ h4{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img{
+    box-sizing: border-box;
 }
