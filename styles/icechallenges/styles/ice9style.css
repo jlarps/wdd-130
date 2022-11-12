@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+.photobox{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text{
+    background-color: white;
+}

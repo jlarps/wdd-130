@@ -208,6 +208,36 @@ footer .social img{
     padding-top: 15px;
 }
 
+/* From here down is the subpage css */
+
+.river-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.headliner{
+    font-size: 100px;
+    text-align: center;
+}
+
+.salmon{
+    width: 50%;
+    float: left; 
+    padding: 0 20px 20px 0;
+}
+
+.gcanyon{
+    width: 50%;
+    float: right; 
+    padding: 0 20px 20px 0;
+}
+
+.grandcanyon{
+    width: 50%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
